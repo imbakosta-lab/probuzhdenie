@@ -1,7 +1,7 @@
 // Offline support for the installed (home screen) web app.
 // Pages: network first, falling back to the cached shell. Hashed assets: cache first.
 // Bump VERSION to drop old caches after a release.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = `probuzhdenie-${VERSION}`;
 const SHELL = ['./', './index.html', './manifest.webmanifest', './favicon.svg', './icons/apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png'];
 
